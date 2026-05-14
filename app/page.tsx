@@ -49,7 +49,7 @@ export default function Home() {
               Seu carro<br />nas <b>mãos certas</b>
             </h1>
             <p className="hero-sub">
-              Mecânica e auto-elétrica especializada em manutenção automotiva, perto de você.
+              Auto-elétrica especializada em manutenção automotiva, perto de você.
             </p>
             <div className="hero-actions">
               <a href={WA_LINK} target="_blank" rel="noopener" className="btn btn-red btn-lg">
@@ -92,9 +92,9 @@ export default function Home() {
           <div className="svc-grid">
             <div className="sc r" data-d="1">
               <svg className="sc-icon" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
+                <polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
               </svg>
-              <div className="sn">Mecânica Geral</div>
+              <div className="sn">Auto Elétrica</div>
             </div>
             <div className="sc r" data-d="2">
               <svg className="sc-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -194,7 +194,6 @@ export default function Home() {
               { name: "Fátima Palota", text: "Atendimento muito bom, problema resolvido rápido, pessoal de confiança e muito profissionais!" },
               { name: "Paulo Afonso Bernardez", text: "Minha primeira visita. Atendimento honesto e super simpático, serviço rápido e bem feito. Preço justo. Parabéns!" },
               { name: "Klaus Santos Zavagnison", text: "Excelente equipe, atendimento ótimo, educação de qualidade, serviço 100% perfeito." },
-              { name: "Angélica Santos", text: "Seu Jorge é espetacular... Muito atencioso, sanou todas minhas dúvidas." },
               { name: "Valdir Barbosa", text: "Pessoal muito atencioso e muito profissional, preço muito bom e justo. Recomendo." },
             ].map((r, i) => (
               <div key={r.name} className="rc r" data-d={String(i + 1)}>
@@ -241,7 +240,7 @@ export default function Home() {
               <p className="ab-txt">Cuidar do seu carro é cuidar da sua segurança, da sua rotina e da sua tranquilidade. E é exatamente com esse compromisso que o Centro Automotivo Terra Preta atua há mais de 10 anos em Mairiporã.</p>
               <p className="ab-txt">Aqui, cada veículo é tratado com cuidado e responsabilidade, como se fosse nosso. Trabalhamos com serviços completos de mecânica e auto elétrica, sempre prezando pela qualidade, transparência no diagnóstico e preços justos, sem surpresas no final.</p>
               <p className="ab-txt" style={{ marginBottom: 30 }}>Seja para uma revisão, manutenção preventiva ou um reparo específico, você pode sempre contar com a gente.</p>
-              <a href="https://maps.google.com/maps?q=Av.+Pietro+Petri,+446,+Mairipor%C3%A3+-+SP" target="_blank" rel="noopener" className="btn btn-out">
+              <a href="https://maps.google.com/maps?q=Rua+Ana+Jos%C3%A9+Miziaria,+45,+Terra+Preta,+Mairipor%C3%A3+SP" target="_blank" rel="noopener" className="btn btn-out">
                 Conheça nosso espaço →
               </a>
             </div>
@@ -279,7 +278,7 @@ export default function Home() {
             </div>
             <div className="guar">
               <div className="gitem">
-                <div className="gnum">120</div>
+                <div className="gnum">90</div>
                 <div className="gunit"> dias</div>
                 <div className="gdesc">Garantia para<br />troca de peças</div>
               </div>
@@ -307,7 +306,7 @@ export default function Home() {
             </div>
             <div>
               <h4>Endereço</h4>
-              <address>Av. Pietro Petri, 446<br />Mairiporã — SP<br />CEP: 07661-520</address>
+              <address>Rua Ana José Miziaria, 45<br />Terra Preta, Mairiporã — SP</address>
             </div>
             <div>
               <h4>Horários</h4>
@@ -316,7 +315,7 @@ export default function Home() {
           </div>
           <div className="fmap">
             <iframe
-              src="https://maps.google.com/maps?q=Centro+Automotivo+Terra+Preta,+Mairipor%C3%A3+SP&output=embed&hl=pt-BR"
+              src="https://maps.google.com/maps?q=Rua+Ana+Jos%C3%A9+Miziaria,+45,+Terra+Preta,+Mairipor%C3%A3+SP&output=embed&hl=pt-BR"
               width="100%"
               height="320"
               loading="lazy"
