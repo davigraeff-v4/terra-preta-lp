@@ -49,7 +49,7 @@ export default function Home() {
               Seu carro<br />nas <b>mãos certas</b>
             </h1>
             <p className="hero-sub">
-              Auto-elétrica especializada em manutenção automotiva, perto de você.
+              Especialista em mecânica e elétrica perto de você.
             </p>
             <div className="hero-actions">
               <a href={WA_LINK} target="_blank" rel="noopener" className="btn btn-red btn-lg">
@@ -122,7 +122,7 @@ export default function Home() {
                 <circle cx="12" cy="12" r="3" />
                 <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
               </svg>
-              <div className="sn">Embreagem</div>
+              <div className="sn">Mecânica</div>
             </div>
             <div className="sc r" data-d="5">
               <svg className="sc-icon" viewBox="0 0 24 24" aria-hidden="true">
@@ -240,7 +240,7 @@ export default function Home() {
               <p className="ab-txt">Cuidar do seu carro é cuidar da sua segurança, da sua rotina e da sua tranquilidade. E é exatamente com esse compromisso que o Centro Automotivo Terra Preta atua há mais de 10 anos em Mairiporã.</p>
               <p className="ab-txt">Aqui, cada veículo é tratado com cuidado e responsabilidade, como se fosse nosso. Trabalhamos com serviços completos de mecânica e auto elétrica, sempre prezando pela qualidade, transparência no diagnóstico e preços justos, sem surpresas no final.</p>
               <p className="ab-txt" style={{ marginBottom: 30 }}>Seja para uma revisão, manutenção preventiva ou um reparo específico, você pode sempre contar com a gente.</p>
-              <a href="https://maps.google.com/maps?q=Rua+Ana+Jos%C3%A9+Miziaria,+45,+Terra+Preta,+Mairipor%C3%A3+SP" target="_blank" rel="noopener" className="btn btn-out">
+              <a href="https://www.google.com/maps/search/?api=1&query=Rua+Ana+Jos%C3%A9+Miziaria%2C+45%2C+Terra+Preta%2C+Mairipor%C3%A3%2C+SP" target="_blank" rel="noopener" className="btn btn-out">
                 Conheça nosso espaço →
               </a>
             </div>
@@ -310,7 +310,7 @@ export default function Home() {
             </div>
             <div>
               <h4>Horários</h4>
-              <address>Segunda a Sexta<br />08:00 às 18:00<br /><br />Sábado e Domingo<br />Fechado</address>
+              <address>Segunda a Quinta<br />08:00 às 18:00<br /><br />Sexta<br />08:00 às 17:00<br /><br />Sábado<br />08:00 às 12:00</address>
             </div>
           </div>
           <div className="fmap">
