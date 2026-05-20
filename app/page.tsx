@@ -312,6 +312,17 @@ export default function Home() {
               <h4>Horários</h4>
               <address>Segunda a Quinta<br />08:00 às 18:00<br /><br />Sexta<br />08:00 às 17:00<br /><br />Sábado<br />08:00 às 12:00</address>
             </div>
+            <div>
+              <h4>Telefones</h4>
+              <address>
+                <a href="tel:+551137779271">11 3777-9271</a><br />
+                <span className="ft-sub">Fixo</span><br /><br />
+                <a href="tel:+5511937564445">11 93756-4445</a><br />
+                <span className="ft-sub">Eduardo — Mecânica</span><br /><br />
+                <a href="tel:+5511998107681">11 99810-7681</a><br />
+                <span className="ft-sub">Marcos — Elétrica</span>
+              </address>
+            </div>
           </div>
           <div className="fmap">
             <iframe

@@ -128,12 +128,15 @@ a{text-decoration:none;color:inherit}
 
 /* FOOTER */
 footer{background:#06060b;border-top:1px solid var(--border)}
-.ft{display:grid;grid-template-columns:2fr 1fr 1fr;gap:clamp(24px,5vw,56px);padding:clamp(36px,5vw,64px) 0 36px}
+.ft{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:clamp(24px,4vw,48px);padding:clamp(36px,5vw,64px) 0 36px}
 .brand-mark{font-family:var(--hf);font-size:26px;font-weight:900;text-transform:uppercase;letter-spacing:.04em;color:#fff;margin-bottom:10px}
 .brand-mark span{color:var(--red)}
 .ftag{font-size:13px;color:var(--muted);line-height:1.65;max-width:210px}
 footer h4{font-family:var(--hf);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.13em;color:var(--red);margin-bottom:12px}
 footer address{font-style:normal;font-size:13px;color:var(--muted);line-height:1.9}
+footer address a{color:#fff;font-weight:600;transition:color .2s}
+footer address a:hover{color:var(--red)}
+.ft-sub{font-size:11px;color:var(--muted);letter-spacing:.03em}
 .fmap{border-radius:10px;overflow:hidden;border:1px solid var(--border);margin-bottom:28px}
 .fmap iframe{display:block;filter:invert(90%) hue-rotate(175deg) brightness(.95) contrast(.9)}
 .fbot{display:flex;justify-content:center;padding:18px 0;border-top:1px solid var(--border);font-size:12px;color:var(--muted)}
@@ -148,7 +151,7 @@ footer address{font-style:normal;font-size:13px;color:var(--muted);line-height:1
   .svc-grid{grid-template-columns:repeat(2,1fr)}
   .ab-g{grid-template-columns:1fr}
   .sg{grid-template-columns:repeat(2,1fr);max-width:100%}
-  .ft{grid-template-columns:1fr 1fr}
+  .ft{grid-template-columns:1fr 1fr;}
 }
 @media(max-width:640px){
   .sg{grid-template-columns:1fr 1fr}
