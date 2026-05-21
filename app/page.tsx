@@ -1,7 +1,7 @@
 import ClientEffects from "@/components/ClientEffects";
 
 const WA_LINK =
-  "https://wa.me/5511916990056?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20o%20meu%20veiculo";
+  "https://wa.me/5511937564445?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20para%20o%20meu%20veiculo";
 
 const WaIcon = ({ size = 16 }: { size?: number }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -240,7 +240,7 @@ export default function Home() {
               <p className="ab-txt">Cuidar do seu carro é cuidar da sua segurança, da sua rotina e da sua tranquilidade. E é exatamente com esse compromisso que o Centro Automotivo Terra Preta atua há mais de 10 anos em Mairiporã.</p>
               <p className="ab-txt">Aqui, cada veículo é tratado com cuidado e responsabilidade, como se fosse nosso. Trabalhamos com serviços completos de mecânica e auto elétrica, sempre prezando pela qualidade, transparência no diagnóstico e preços justos, sem surpresas no final.</p>
               <p className="ab-txt" style={{ marginBottom: 30 }}>Seja para uma revisão, manutenção preventiva ou um reparo específico, você pode sempre contar com a gente.</p>
-              <a href="https://www.google.com/maps/place/Centro+Automotivo+Terra+Preta/@-23.262965,-46.587248,20.45z/data=!4m15!1m8!3m7!1s0x94ceebff475471f7:0x4d0b7d14ce383c88!2sR.+Ana+Jos%C3%A9+Miziaria,+45+-+Terra+Preta,+Mairipor%C3%A3+-+SP,+07661-520!3b1!8m2!3d-23.2647822!4d-46.5894283!16s%2Fg%2F11rg67vq3r!3m5!1s0x94ceebfef086045b:0x861f419dd7ad034!8m2!3d-23.2647822!4d-46.5894283!16s%2Fg%2F11g729zmz9?entry=ttu&g_ep=EgoyMDI2MDUxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" className="btn btn-out">
+              <a href="https://www.google.com/maps/place/Rua+Ana+Jos%C3%A9+Miziaria,+45,+Terra+Preta,+Mairipor%C3%A3+-+SP,+07661-520/@-23.2647822,-46.5894283,17z" target="_blank" rel="noopener" className="btn btn-out">
                 Conheça nosso espaço →
               </a>
             </div>
@@ -326,7 +326,7 @@ export default function Home() {
           </div>
           <div className="fmap">
             <iframe
-              src="https://maps.google.com/maps?q=Centro+Automotivo+Terra+Preta,+Mairipor%C3%A3,+SP&output=embed&hl=pt-BR&z=17"
+              src="https://maps.google.com/maps?q=Rua+Ana+Jos%C3%A9+Miziaria,+45,+Terra+Preta,+Mairipor%C3%A3,+SP,+07661-520&output=embed&hl=pt-BR&z=17"
               width="100%"
               height="320"
               loading="lazy"
