@@ -240,7 +240,7 @@ export default function Home() {
               <p className="ab-txt">Cuidar do seu carro é cuidar da sua segurança, da sua rotina e da sua tranquilidade. E é exatamente com esse compromisso que o Centro Automotivo Terra Preta atua há mais de 10 anos em Mairiporã.</p>
               <p className="ab-txt">Aqui, cada veículo é tratado com cuidado e responsabilidade, como se fosse nosso. Trabalhamos com serviços completos de mecânica e auto elétrica, sempre prezando pela qualidade, transparência no diagnóstico e preços justos, sem surpresas no final.</p>
               <p className="ab-txt" style={{ marginBottom: 30 }}>Seja para uma revisão, manutenção preventiva ou um reparo específico, você pode sempre contar com a gente.</p>
-              <a href="https://www.google.com/maps/place/Rua+Ana+Jos%C3%A9+Miziaria,+45,+Terra+Preta,+Mairipor%C3%A3+-+SP,+07661-520/@-23.2647822,-46.5894283,17z" target="_blank" rel="noopener" className="btn btn-out">
+              <a href="https://share.google/9v0EuzWGHzZtEG21s" target="_blank" rel="noopener" className="btn btn-out">
                 Conheça nosso espaço →
               </a>
             </div>
