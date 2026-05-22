@@ -324,17 +324,6 @@ export default function Home() {
               </address>
             </div>
           </div>
-          <div className="fmap">
-            <iframe
-              src="https://maps.google.com/maps?q=Rua+Ana+Jos%C3%A9+Miziaria,+45,+Terra+Preta,+Mairipor%C3%A3,+SP,+07661-520&output=embed&hl=pt-BR&z=17"
-              width="100%"
-              height="320"
-              loading="lazy"
-              allowFullScreen
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Localização Terra Preta Centro Automotivo"
-            />
-          </div>
           <div className="fbot">
             <p>© 2026 Terra Preta Centro Automotivo. Todos os direitos reservados.</p>
           </div>
